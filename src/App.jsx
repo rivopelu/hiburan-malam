@@ -1,13 +1,11 @@
 
-import ToggleTheme from './components/ToggleDarkMode';
 import { MainRoute } from './config';
 import './style/App.scss';
 
 function App() {
   return (
-    <div className="App min-h-screen dark:text-white bg-white dark:bg-gray-900">
+    <div className="App min-h-screen bg-gray-900 text-white ">
       <MainRoute />
-      <ToggleTheme />
     </div>
   );
 }
